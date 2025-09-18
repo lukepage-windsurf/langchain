@@ -2,7 +2,7 @@ import pytest
 from langchain_core.messages import HumanMessage
 from pydantic import BaseModel, Field
 
-from langchain.agents import create_react_agent
+from langchain_community.agent_toolkits import create_react_agent
 from langchain.agents.structured_output import ToolStrategy
 
 

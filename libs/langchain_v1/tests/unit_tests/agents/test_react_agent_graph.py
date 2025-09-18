@@ -5,7 +5,7 @@ import pytest
 from pydantic import BaseModel
 from syrupy.assertion import SnapshotAssertion
 
-from langchain.agents import create_react_agent
+from langchain_community.agent_toolkits import create_react_agent
 
 from .model import FakeToolCallingModel
 

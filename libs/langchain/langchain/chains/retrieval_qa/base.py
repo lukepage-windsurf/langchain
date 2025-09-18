@@ -260,7 +260,7 @@ class RetrievalQA(BaseRetrievalQA):
     Example:
         .. code-block:: python
 
-            from langchain_community.llms import OpenAI
+            from langchain_openai import OpenAI
             from langchain.chains import RetrievalQA
             from langchain_community.vectorstores import FAISS
             from langchain_core.vectorstores import VectorStoreRetriever

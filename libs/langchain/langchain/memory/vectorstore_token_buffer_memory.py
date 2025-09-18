@@ -18,7 +18,7 @@ from pydantic import Field, PrivateAttr
 
 from langchain.memory import ConversationTokenBufferMemory, VectorStoreRetrieverMemory
 from langchain.memory.chat_memory import BaseChatMemory
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 DEFAULT_HISTORY_TEMPLATE = """
 Current date and time: {current_time}.

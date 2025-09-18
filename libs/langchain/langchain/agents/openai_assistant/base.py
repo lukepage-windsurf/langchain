@@ -159,8 +159,8 @@ class OpenAIAssistantRunnable(RunnableSerializable[dict, OutputType]):
         .. code-block:: python
 
             from langchain_experimental.openai_assistant import OpenAIAssistantRunnable
-            from langchain.agents import AgentExecutor
-            from langchain.tools import E2BDataAnalysisTool
+            from langchain_community.agent_toolkits import AgentExecutor
+            from langchain_core.tools import E2BDataAnalysisTool
 
 
             tools = [E2BDataAnalysisTool(api_key="...")]
@@ -180,9 +180,9 @@ class OpenAIAssistantRunnable(RunnableSerializable[dict, OutputType]):
         .. code-block:: python
 
             from langchain_experimental.openai_assistant import OpenAIAssistantRunnable
-            from langchain.agents import AgentExecutor
+            from langchain_community.agent_toolkits import AgentExecutor
             from langchain_core.agents import AgentFinish
-            from langchain.tools import E2BDataAnalysisTool
+            from langchain_core.tools import E2BDataAnalysisTool
 
 
             tools = [E2BDataAnalysisTool(api_key="...")]

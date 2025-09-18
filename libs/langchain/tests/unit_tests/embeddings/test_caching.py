@@ -9,7 +9,7 @@ import pytest
 from langchain_core.embeddings import Embeddings
 from typing_extensions import override
 
-from langchain.embeddings import CacheBackedEmbeddings
+from langchain_community.embeddings import CacheBackedEmbeddings
 from langchain.storage.in_memory import InMemoryStore
 
 

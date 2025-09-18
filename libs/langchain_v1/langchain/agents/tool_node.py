@@ -21,7 +21,7 @@ Key Components:
 Typical Usage:
     ```python
     from langchain_core.tools import tool
-    from langchain.agents import ToolNode
+    from langchain_community.agent_toolkits import ToolNode
 
     @tool
     def my_tool(x: int) -> str:
@@ -338,7 +338,7 @@ class ToolNode(RunnableCallable):
         Basic usage:
 
         ```python
-        from langchain.agents import ToolNode
+        from langchain_community.agent_toolkits import ToolNode
         from langchain_core.tools import tool
 
         @tool
