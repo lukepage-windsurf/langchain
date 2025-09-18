@@ -163,7 +163,7 @@ class ConstitutionalChain(Chain):
     Example:
         .. code-block:: python
 
-            from langchain_community.llms import OpenAI
+            from langchain_openai import OpenAI
             from langchain.chains import LLMChain, ConstitutionalChain
             from langchain.chains.constitutional_ai.models \
                 import ConstitutionalPrinciple

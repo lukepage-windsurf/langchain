@@ -2,11 +2,9 @@ from __future__ import annotations
 
 from typing import Union
 
-from langchain_core.agents import AgentAction, AgentFinish
+from langchain_core.agents import AgentAction, AgentFinish, AgentOutputParser
 from langchain_core.exceptions import OutputParserException
 from langchain_core.utils.json import parse_json_markdown
-
-from langchain.agents import AgentOutputParser
 from langchain.agents.conversational_chat.prompt import FORMAT_INSTRUCTIONS
 
 

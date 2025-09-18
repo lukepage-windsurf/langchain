@@ -29,7 +29,7 @@ class ElasticsearchDatabaseChain(Chain):
         .. code-block:: python
 
             from langchain.chains import ElasticsearchDatabaseChain
-            from langchain_community.llms import OpenAI
+            from langchain_openai import OpenAI
             from elasticsearch import Elasticsearch
 
             database = Elasticsearch("http://localhost:9200")

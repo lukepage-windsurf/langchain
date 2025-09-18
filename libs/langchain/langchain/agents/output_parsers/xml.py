@@ -5,7 +5,7 @@ from langchain_core.agents import AgentAction, AgentFinish
 from pydantic import Field
 from typing_extensions import override
 
-from langchain.agents import AgentOutputParser
+from langchain_core.agents import AgentOutputParser
 
 
 def _unescape(text: str) -> str:

@@ -4,7 +4,7 @@ import pytest
 from langchain_core.callbacks import CallbackManagerForChainRun
 from typing_extensions import override
 
-from langchain.callbacks import StdOutCallbackHandler
+from langchain_community.callbacks import StdOutCallbackHandler
 from langchain.chains.base import Chain
 
 

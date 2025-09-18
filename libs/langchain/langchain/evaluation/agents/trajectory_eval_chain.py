@@ -108,9 +108,9 @@ class TrajectoryEvalChain(AgentTrajectoryEvaluator, LLMEvalChain):
     .. code-block:: python
 
         from langchain.agents import AgentType, initialize_agent
-        from langchain_community.chat_models import ChatOpenAI
+        from langchain_openai import ChatOpenAI
         from langchain.evaluation import TrajectoryEvalChain
-        from langchain.tools import tool
+        from langchain_core.tools import tool
 
         @tool
         def geography_answers(country: str, question: str) -> str:

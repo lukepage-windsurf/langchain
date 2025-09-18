@@ -14,7 +14,7 @@ from typing_extensions import override
 
 from langchain.agents.agent import AgentOutputParser
 from langchain.agents.structured_chat.prompt import FORMAT_INSTRUCTIONS
-from langchain.output_parsers import OutputFixingParser
+from langchain_core.output_parsers import OutputFixingParser
 
 logger = logging.getLogger(__name__)
 

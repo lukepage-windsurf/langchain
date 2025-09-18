@@ -124,9 +124,9 @@ class CacheBackedEmbeddings(Embeddings):
     Examples:
         .. code-block: python
 
-            from langchain.embeddings import CacheBackedEmbeddings
+            from langchain_community.embeddings import CacheBackedEmbeddings
             from langchain.storage import LocalFileStore
-            from langchain_community.embeddings import OpenAIEmbeddings
+            from langchain_openai import OpenAIEmbeddings
 
             store = LocalFileStore('./my_cache')
 
